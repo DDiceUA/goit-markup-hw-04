@@ -360,6 +360,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     background-color: #4D5AE5;
     border-radius: 50%;
 }
+.footer-socials-link:hover{
+    background-color: #31D0AA;
+}
 .footer-socials-icon{
     fill: #F4F4FD;
 }
