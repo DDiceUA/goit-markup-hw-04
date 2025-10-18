@@ -278,14 +278,14 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     width: 100%;
     height: 100%;
     background-color: #4D5AE5;
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
+    color: #F4F4FD;    
 
     transform: translatey(100%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-overlay-text{
-    padding: 40px 32px 0 32px;
-    color: #F4F4FD;
-}
+
 .portfolio-item-textblock{
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
