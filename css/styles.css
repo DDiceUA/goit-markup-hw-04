@@ -364,6 +364,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     align-items: center;
     gap: 16px;
 }
+.footer-socials-item{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer-socials-link {
     display: flex;
     width: 40px;
@@ -374,7 +377,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border-radius: 50%;
 }
 .footer-socials-link:hover, .footer-socials-link:focus{
-    background-color: 31D0AA#;
+    background-color: #31D0AA;
 }
 .footer-socials-icon{
     fill: #F4F4FD;
