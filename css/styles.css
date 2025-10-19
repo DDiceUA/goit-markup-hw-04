@@ -218,7 +218,7 @@ color: #404bbf;
 }
 .ourteam-teamtextbox .list-text{
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .team-photo{
     object-fit:cover
@@ -338,7 +338,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 .footer .container{
     display: flex;
-    gap: 120px;
     align-items: baseline;
 }
 .footer-info{
